@@ -16,7 +16,7 @@ class ApplicationController < Sinatra::Base
   end
 
   post '/registrations' do
-    puts params
+    # puts params
     binding.pry
 
     redirect '/users/home'
